@@ -1,4 +1,3 @@
-# bash
 shopt -s nocaseglob;
 shopt -s histappend;
 shopt -s cdspell;
@@ -31,8 +30,8 @@ export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH="${USER_LIB_DIR}:$PATH"
 
 # Cisco Artifactory
-export myCEC_USERNAME="namahesh"
-export myARTIFACTORY_API_KEY="<MY_KEY_HERE>"
+export myCEC_USERNAME=$namahesh
+export myArtifactoryAPIKey="<ARTIFACTORY_KEY>"
 
 # SBT
 export SBT_HOME=/Users/namahesh/tools/sbt-1.3.4
